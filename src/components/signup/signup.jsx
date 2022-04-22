@@ -81,7 +81,7 @@ export default function Signup() {
             "content-type": "application/json"
           }
         }).then(setuser({}))
-        .then(console.log("done"));
+        .then(alert("User Signedup Successfully"));
       }
     }
       
